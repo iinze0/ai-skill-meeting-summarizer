@@ -1,0 +1,8 @@
+{
+  "skill": "meeting-summarizer",
+  "test_cases": [
+    {"input": "summarize the meeting", "should_trigger": true},
+    {"input": "meeting notes to action items", "should_trigger": true},
+    {"input": "review this code", "should_trigger": false}
+  ]
+}

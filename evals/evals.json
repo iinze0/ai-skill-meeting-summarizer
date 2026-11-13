@@ -1,0 +1,7 @@
+{
+  "skill": "meeting-summarizer",
+  "test_cases": [
+    {"name": "basic_notes", "input": "Summarize these meeting notes", "assertions": ["Includes decisions", "Lists action items"]},
+    {"name": "transcript", "input": "Turn this transcript into a meeting summary", "assertions": ["Clear structure", "Actionable"]}
+  ]
+}
